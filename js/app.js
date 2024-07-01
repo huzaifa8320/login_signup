@@ -112,11 +112,11 @@ login_btn2.addEventListener(`click`, function (event) {
                     confirmButtonText: "Ok",
                   }).then((result) => {
                     if (result.isConfirmed) {
-                      window.location.href = `file:///E:/Java%20Script%20Project/login%20page/pages/signup.html`
+                      window.location.href = `pages/signup.html`
                     }
                   });
                 setTimeout(() => {
-                    window.location.href = `file:///E:/Java%20Script%20Project/login%20page/pages/signup.html`
+                    window.location.href = `pages/signup.html`
                 }, 2000);
             }
         }
