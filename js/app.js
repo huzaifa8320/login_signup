@@ -44,7 +44,7 @@ sign_btn2.addEventListener(`click`, function () {
                 confirmButtonText: "Ok",
               }).then((result) => {
                 if (result.isConfirmed) {
-                    window.location.href = '../login.html';
+                    window.location.href = '../index.html';
                 }
               });
             var sign_details = {
@@ -54,7 +54,7 @@ sign_btn2.addEventListener(`click`, function () {
             }
             localStorage.setItem(`${sign_email.value}`, JSON.stringify(sign_details))
             setTimeout(() => {
-                window.location.href = '../login.html';
+                window.location.href = '../index.html';
             }, 2000);
         }
     }
